@@ -173,9 +173,9 @@ const workExperiences = {
       date: "November 2024",
       desc: "solved backend challenges",
       descBullets: [
-        "Optimizing database queries and improving API performance in LibreHealth",
-        "fixed server-side bugs in OpenMRS",
-        "Developed robust backend modules for efficient signal processing workflows in GNU Radio"
+        "Optimizing database queries and improving API performance Submitted in LibreHealth",
+        "Submmited fixed code of server-side bugs in OpenMRS",
+        "Submited robust backend modules for efficient signal processing workflows in GNU Radio"
       ]
     },
     {
@@ -269,7 +269,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1ttoREgZ_5PhAptZ2YKq-5qrbLMd8pJS7/view?usp=sharing"
         },
         {
           name: "Award Letter",
