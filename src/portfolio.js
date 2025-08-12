@@ -23,7 +23,7 @@ const greeting = {
   username: "Kailashsinh",
   title: "Hi all, I'm Kailashsinh Rajput",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building WebSites and web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -122,9 +122,9 @@ const educationInfo = {
       logo: require("./assets/images/gls.jpg"),
       subHeader: "Master of Computer Applications",
       duration: "July 2026 - April 2028",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "",
       descBullets: [
-        "As soon as I graduate, I'll mention my progress."
+        "As soon as I graduate bachelors, I'll mention my progress."
       ]
     },
     {
@@ -319,7 +319,7 @@ const blogSection = {
       url: "",
       title: "How i become the developer?",
       description:
-        "that story start from 9th std when i am dum student, teacher's said there is not even chance to passout boards for me,and this lines hitting hard....and i prepared for boards"
+        "that story start from 9th std when i was dum student, teachers said there is not even chance to passout boards for me,and this lines hitting hard...and i prepared for exams"
     },
     {
       url: "",
