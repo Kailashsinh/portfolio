@@ -328,13 +328,13 @@ const blogSection = {
         "but i did't get that level marks much i expact also same condition in 11th & 12th i feel i should give up but here One special person who motivate me and support me also."
     },
     {
-      url: "https://javascript.info/closure",
+      url: "",
       title: "How i become the developer? PART-3",
       description:
         "that person belive in me more than my parents, therefore now i'm a scholar student and also good developer but.........."
     },
     {
-      url: "https://javascript.info/closure",
+      url: "",
       title: "How i become the developer? PART-4",
       description:
         "but unfortunately i lose that One Person and i never get back in life !! Story end thanks to that one person"
