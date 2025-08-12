@@ -273,7 +273,7 @@ const achievementSection = {
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/1V0yxXcP0OpilrlyP45AoX7eAwN9nZRnF/view?usp=drive_link"
+          url: "https://drive.google.com/file/d/1V0yxXcP0OpilrlyP45AoX7eAwN9nZRnF/view?usp=sharing"
         },
       ]
     },
