@@ -343,7 +343,7 @@ const blogSection = {
       url: "",
       title: "How i become the developer? PART-5",
       description:
-        "But unfortunately, I lost that one person and will never get them back in my life. Story ends—thanks to that one person."
+        "But unfortunately, I lost that one person, and from then on, no matter what happened in life, I kept coding and bettering myself."
     },
     {
       url: "",
