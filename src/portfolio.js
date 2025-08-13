@@ -135,7 +135,7 @@ const educationInfo = {
       desc: "Ranked in the top 10% of both the program and the university's exams; completing courses in web development, networking, computer fundamentals, and operating systems.",
       descBullets: ["Semester-1: 8 CGPA | semester-2: 8.2 CGPA",
                     "Semester-3: 9 CGPA | Semester-4: 8.7 CGPA",
-                    "Semester-4: -Soon- | Semester-6: -Soon-"]
+                    "Semester-5: -Soon- | Semester-6: -Soon-"]
     }
   ]
 };
@@ -319,25 +319,37 @@ const blogSection = {
       url: "",
       title: "How i become the developer?",
       description:
-        "that story start from 9th std when i was dum student, teachers said there is not even chance to passout boards for me,and this lines hitting hard...and i prepared for exams"
+        "that story start from 9th std when i was dum student, teachers said there is not even chance to passout boards for me"
     },
     {
       url: "",
       title: "How i become the developer? PART-2",
       description:
-        "but i did't get that level marks much i expact also same condition in 11th & 12th i feel i should give up but here One special person who motivate me and support me also."
+        "And these lines are hitting hard...I prepared for the exams, but I didn’t get the marks I expected."
     },
     {
       url: "",
       title: "How i become the developer? PART-3",
       description:
-        "that person belive in me more than my parents, therefore now i'm a scholar student and also good developer but.........."
+        "The same thing happened in 11th and 12th. I feel like giving up, but there’s one person who motivates and supports me."
     },
     {
       url: "",
       title: "How i become the developer? PART-4",
       description:
-        "but unfortunately i lose that One Person and i never get back in life !! Story end thanks to that one person"
+        "That person believes in me more than anyone else, and because of them, I’m now a scholar and a good developer—but…..."
+    },
+      {
+      url: "",
+      title: "How i become the developer? PART-5",
+      description:
+        "But unfortunately, I lost that one person and will never get them back in my life. Story ends—thanks to that one person."
+    },
+    {
+      url: "",
+      title: "Moral of the story",
+      description:
+        "never give up till you achieve what you want."
     }    
   ],
   display: true // Set false to hide this section, defaults to true .
@@ -387,3 +399,4 @@ export {
   isHireable,
   resumeSection
 };
+
