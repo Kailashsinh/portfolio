@@ -349,7 +349,7 @@ const blogSection = {
       url: "",
       title: "Moral of the story",
       description:
-        "Never give up until you achieve what you want. And once you achieve it, keep going until you become the best version of yourself."
+        "Never give up until you achieve your goal. Then keep going until you become the best version of yourself."
     }    
   ],
   display: true // Set false to hide this section, defaults to true .
