@@ -319,7 +319,7 @@ const blogSection = {
       url: "",
       title: "How i become the developer?",
       description:
-        "that story start from 9th std when i was dum student, teachers said there is not even chance to passout boards for me"
+        "That story started in 9th std, when I was a dumb student and teachers said I didn’t even have a chance to pass the exams."
     },
     {
       url: "",
@@ -349,7 +349,7 @@ const blogSection = {
       url: "",
       title: "Moral of the story",
       description:
-        "never give up till you achieve what you want."
+        "Never give up until you achieve what you want. And once you achieve it, keep going until you become the best version of yourself."
     }    
   ],
   display: true // Set false to hide this section, defaults to true .
