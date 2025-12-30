@@ -289,40 +289,10 @@ const blogSection = {
   blogs: [
     {
       url: "",
-      title: "How i become the developer?",
+      title: "Why Java Use 2bytes for Char data type ?",
       description:
-        "That story started in 9th std, when I was a dumb student and teachers said I didn’t even have a chance to pass the exams."
-    },
-    {
-      url: "",
-      title: "How i become the developer? PART-2",
-      description:
-        "And these lines are hitting hard...I prepared for the exams, but I didn’t get the marks I expected."
-    },
-    {
-      url: "",
-      title: "How i become the developer? PART-3",
-      description:
-        "The same thing happened in 11th and 12th. I feel like giving up, but there’s one person who motivates and supports me."
-    },
-    {
-      url: "",
-      title: "How i become the developer? PART-4",
-      description:
-        "That person believes in me more than anyone else, and because of them, I’m now a scholar and a good developer—but…..."
-    },
-      {
-      url: "",
-      title: "How i become the developer? PART-5",
-      description:
-        "But unfortunately, I lost that one person, and from then on, no matter what happened in life, I kept coding and bettering myself."
-    },
-    {
-      url: "",
-      title: "Moral of the story",
-      description:
-        "Never give up until you achieve your goal. Then keep going until you become the best version of yourself."
-    }    
+        "java stores value in unicode (anything like emoji,any language including englis,hindi, gujarati,etc) instead of ASCII value "
+    }
   ],
   display: true
 };
