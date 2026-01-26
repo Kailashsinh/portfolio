@@ -25,7 +25,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Kailashsinh/",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/kailashsinh-rajput-235975343/",
   gmail: "kailashsinhrajput25@gmail.com",
   gitlab: "https://gitlab.com/kailashsinhrajput25/",
   instagram: "https://www.instagram.com/kailashsingh_banna_2609?igsh=MmdjaHZ2eGc2anNj",
