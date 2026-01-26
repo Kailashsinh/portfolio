@@ -1,15 +1,22 @@
+/* Change this file to get your personal Portfolio */
+
+// To change portfolio colors globally go to the  _globalColor.scss file
+
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
 
 const splashScreen = {
-  enabled: true,
+  enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000
+  duration: 2000 // Set animation duration as per your animation
 };
 
+// Summary And Greeting Section
 
 const illustration = {
-  animated: true
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
@@ -19,20 +26,26 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building WebSites and web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
+
+// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/Kailashsinh/",
-  linkedin: "https://www.linkedin.com/in/kailashsinh-rajput-235975343/",
+  linkedin: "https://www.linkedin.com/",
   gmail: "kailashsinhrajput25@gmail.com",
   gitlab: "https://gitlab.com/kailashsinhrajput25/",
   instagram: "https://www.instagram.com/kailashsingh_banna_2609?igsh=MmdjaHZ2eGc2anNj",
   medium: "https://medium.com/@kailashsinhrajput25",
   stackoverflow: "https://stackoverflow.com/users/31252710/kailashsinh-rajput",
-  display: true
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+  display: true // Set true to display this section, defaults to false
 };
+
+// Skills Section
 
 const skillsSection = {
   title: "What I do",
@@ -46,6 +59,9 @@ const skillsSection = {
       "⚡ Integration of third party services such as Amezon web services (AWS)"
     )
   ],
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -93,20 +109,22 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
+// Education Section
+
 const educationInfo = {
-  display: true,
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "GLS University",
       logo: require("./assets/images/gls.jpg"),
       subHeader: "Master of Computer Applications",
       duration: "July 2026 - April 2028",
-      desc: "",
+      desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "As soon as I graduate bachelors, I'll mention my progress."
+        "As soon as I graduate, I'll mention my progress."
       ]
     },
     {
@@ -117,19 +135,19 @@ const educationInfo = {
       desc: "Ranked in the top 10% of both the program and the university's exams; completing courses in web development, networking, computer fundamentals, and operating systems.",
       descBullets: ["Semester-1: 8 CGPA | semester-2: 8.2 CGPA",
                     "Semester-3: 9 CGPA | Semester-4: 8.7 CGPA",
-                    "Semester-5: -Soon- | Semester-6: -Soon-"]
+                    "Semester-4: -Soon- | Semester-6: -Soon-"]
     }
   ]
 };
 
-
+// Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", 
-      progressPercentage: "80%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -140,11 +158,13 @@ const techStack = {
       progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
+// Work experience section
+
 const workExperiences = {
-  display: true,
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "backend ER.-intern",
@@ -153,28 +173,30 @@ const workExperiences = {
       date: "November 2024",
       desc: "solved backend challenges",
       descBullets: [
-        "Optimizing database queries and improving API performance Submitted in LibreHealth",
-        "Submmited fixed code of server-side bugs in OpenMRS",
-        "Submited robust backend modules for efficient signal processing workflows in GNU Radio"
+        "Optimizing database queries and improving API performance in LibreHealth",
+        "fixed server-side bugs in OpenMRS",
+        "Developed robust backend modules for efficient signal processing workflows in GNU Radio"
       ]
     },
     {
-      role: "Back-End Developer & Database Administrator",
-      company: "CodeCrew Infotech",
-      companylogo: require("./assets/images/Gemini_Generated_Image_cmbxb5cmbxb5cmbx-removebg-preview.png.jpg"),
-      date: "July 2025",
-      desc: `ElectroCare is a subscription-based electronics service management platform that enables users to request and track device services.
-I worked as a Backend Developer and Database Administrator, building RESTful APIs and managing MongoDB schemas to ensure secure and efficient data handling.`
+      role: "Front-End Developer-Freelancer",
+      company: "Freelance-sansole EDU.",
+      companylogo: require("./assets/images/in round shape sansole education's logo in purple theme.jpg"),
+      date: "june-2025",
+      desc: "I developed a responsive coaching website for Sansole Education, featuring course details, enrollment forms, and resource management. The platform is designed to provide an easy-to-navigate interface for students and admins to manage classes efficiently."
     }
   ]
 };
 
-
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true",
-  display: true 
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
+
+// Some big projects you have worked on
 
 const bigProjects = {
   title: "Projects",
@@ -193,6 +215,7 @@ const bigProjects = {
           name: "GiTHub Source Code",
           url: "https://github.com/Kailashsinh/software-finder"
         }
+        //  you can add extra buttons here.
       ]
     },
     {
@@ -225,9 +248,11 @@ const bigProjects = {
       ]
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
+// Achievement Section
+// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -244,11 +269,11 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1ttoREgZ_5PhAptZ2YKq-5qrbLMd8pJS7/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/1V0yxXcP0OpilrlyP45AoX7eAwN9nZRnF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1V0yxXcP0OpilrlyP45AoX7eAwN9nZRnF/view?usp=drive_link"
         },
       ]
     },
@@ -279,31 +304,52 @@ const achievementSection = {
       ]
     }
   ],
-  display: true 
+  display: true // Set false to hide this section, defaults to true
 };
 
+// Blogs Section
 
 const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "",
-      title: "Why Java Use 2bytes for Char data type ?",
+      title: "How i become the developer?",
       description:
-        "java stores value in unicode (anything like emoji,any language including englis,hindi, gujarati,etc) instead of ASCII value "
-    }
+        "that story start from 9th std when i am dum student, teacher's said there is not even chance to passout boards for me,and this lines hitting hard....and i prepared for boards"
+    },
+    {
+      url: "",
+      title: "How i become the developer? PART-2",
+      description:
+        "but i did't get that level marks much i expact also same condition in 11th & 12th i feel i should give up but here One special person who motivate me and support me also."
+    },
+    {
+      url: "",
+      title: "How i become the developer? PART-3",
+      description:
+        "that person belive in me more than my parents, therefore now i'm a scholar student and also good developer but.........."
+    },
+    {
+      url: "",
+      title: "How i become the developer? PART-4",
+      description:
+        "but unfortunately i lose that One Person and i never get back in life !! Story end thanks to that one person"
+    }    
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true .
 };
 
+// Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  display: true
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -314,13 +360,14 @@ const contactInfo = {
   email_address: "kailashsinhrajput25@gmail.com"
 };
 
+// Twitter Section
 
 const twitterDetails = {
-  userName: "twitter",
-  display: false 
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false;
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -340,4 +387,5 @@ export {
   isHireable,
   resumeSection
 };
+
 
