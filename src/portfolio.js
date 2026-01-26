@@ -158,15 +158,15 @@ const workExperiences = {
         "Submited robust backend modules for efficient signal processing workflows in GNU Radio"
       ]
     },
-    {
-      role: "Front-End Developer-Freelancer",
-      company: "Freelance-sansole EDU.",
-      companylogo: require("./assets/images/in round shape sansole education's logo in purple theme.jpg"),
-      date: "june-2025",
-      desc: "I developed a responsive coaching website for Sansole Education, featuring course details, enrollment forms, and resource management. The platform is designed to provide an easy-to-navigate interface for students and admins to manage classes efficiently."
-    }
-  ]
-};
+   {
+  role: "Back-End Developer & Database Administrator",
+  company: "CodeCrew Infotech",
+  companylogo: require("./assets/images/Gemini_Generated_Image_cmbxb5cmbxb5cmbx-removebg-preview.png.jpg"),
+  date: "July 2025",
+  desc: `ElectroCare is a subscription-based electronics service management platform that enables users to request and track device services.
+I worked as a Backend Developer and Database Administrator, building RESTful APIs and managing MongoDB schemas to ensure secure and efficient data handling.`
+}
+
 
 
 const openSource = {
